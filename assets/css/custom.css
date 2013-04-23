@@ -1,0 +1,12 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+body {
+   padding-top: 40px;
+}
+
+#current, #current > a {
+   color: #ffffff;
+   background-color: #111111;
+}
