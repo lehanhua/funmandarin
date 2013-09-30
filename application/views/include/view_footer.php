@@ -1,4 +1,7 @@
 <footer>
+	<div class="container">
+		<p>&copy; Funmandarin LLC 2013</p>
+	</div>
 </footer>
 
 <!-- Bootstrap core JavaScript ===================================== -->
