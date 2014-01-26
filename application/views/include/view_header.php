@@ -26,20 +26,18 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">FunMandarin Daycare</a>
+				<a class="navbar-brand" href="<?= base_url() ?>">FunMandarin</a>
 			</div><!-- end .navbar-header -->
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li <?php if ($currPage == 'Home') echo 'id="current"' ?>><?= anchor(base_url(), 'Home') ?></li>
-					<li <?php if ($currPage == 'News') echo 'id="current"' ?>><?= anchor('', 'News') ?></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Locations<b class="caret"></b></a>
-							<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-								<li><?= anchor('', 'Iowa Ave')?></li>
-								<li><?= anchor('', 'Lillian Ave')?></li>
-							</ul>
-					</li>
-					
+					<li <?php if ($currPage == 'About') echo 'id="current"' ?>><?= anchor(site_url('about/'), 'About') ?></li>
+					<li <?php if ($currPage == 'News') echo 'id="current"' ?>><?= anchor(site_url('news/'), 'News') ?></li>
+					<li <?php if ($currPage == 'Daycare') echo 'id="current"' ?>><?= anchor(site_url('daycare/'), 'Daycare') ?></li>
+					<li <?php if ($currPage == 'Classes') echo 'id="current"' ?>><?= anchor(site_url('classes/'), 'Classes') ?></li>
+					<li <?php if ($currPage == 'Teacher') echo 'id="current"' ?>><?= anchor(site_url('teachers/'), 'Teachers') ?></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li <?php if ($currPage == 'Contact') echo 'id="current"' ?>><?= anchor(site_url('contact/'), 'Contact') ?></li>
 				</ul>
 			</div><!-- end .navbar-collapse -->
 		</div>
