@@ -1,13 +1,14 @@
-<footer>
+</div><!-- end #wrap -->
+<footer class="footer" id="footer">
 	<div class="container">
-		<p>&copy; Funmandarin LLC 2013</p>
+		<p>&copy; Funmandarin LLC 2014</p>
 	</div>
 </footer>
 
 <!-- Bootstrap core JavaScript ===================================== -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-<script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url('assets/js/custom.js') ?>"></script>
 </body>
 </html>

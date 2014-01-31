@@ -1,13 +1,50 @@
-/**
- * All your custom CSS should go into this file
- */
+/* FunMandarin custom css */
 
+html,
 body {
-   padding-top: 50px;
-   padding-bottom: 20px;
+	height: 100%;
 }
 
-#current, #current > a {
-   color: #ffffff;
-   background-color: #111111;
+.footer {
+	padding: 15px 0;
+	color: #fff;
+	background: #1d2429;
+	border-top: 1px solid #37424d;
 }
+
+/* sticky footer with fixed nav */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -50px;
+	/* Pad bottom by footer height */
+	padding: 0 0 50px;
+}
+
+/* hack so containers won't have huge ass padding on top */
+#wrap > .container-top {
+	padding: 50px 15px 0;
+}
+#wrap > .jumbotron {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+#footer {
+	height: 50px;
+}
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary??
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+}
+*/

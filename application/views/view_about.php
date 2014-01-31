@@ -1,6 +1,6 @@
 <!-- body -->
-<div class="jumbotron">
-    <div class="container">
+<div class="container container-top">
+    <div class="page-header">
 		<h1>FunMandarin</h1>
     </div>
     
