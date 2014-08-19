@@ -45,6 +45,17 @@ body {
   padding-right: 15px;
 }
 
+/* stylizin */
+.jumbotron {
+  background: url(../img/jumbotron-bg.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: black 0 1px 1px;
+  color: white;
+  height: 350px;
+}
+
 /* Lastly, apply responsive CSS fixes as necessary??
 @media (max-width: 767px) {
 #footer {
