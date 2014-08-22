@@ -11,14 +11,7 @@ body {
 	background: #1d2429;
 	border-top: 1px solid #37424d;
 }
-/* banners */
-.banner {
-	height: 200px;
-	background-size: 100%;
-}
-#banner-about {
-	background-image: url("");
-}
+
 /* sticky footer with fixed nav */
 #wrap {
 	min-height: 100%;
@@ -47,13 +40,50 @@ body {
 
 /* stylizin */
 .jumbotron {
-  background: url(../img/jumbotron-bg.jpg);
-  background-position: 0% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
   text-shadow: black 0 1px 1px;
   color: white;
   height: 350px;
+}
+
+.container-top > h1 {
+	padding-top: 100px;
+}
+
+/* jumbotron backgrounds */
+.jumbotron-about {
+	background: url(../img/jumbotron-bg.jpg);
+	background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------------- CAROUSEL STUFF ----------- */
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  margin-bottom: 80px;
+  text-align: left;
+}
+.carousel-caption > h1 {
+	font-size: 64px;
+}
+.carousel-caption > p {
+	font-size: 22px;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary??

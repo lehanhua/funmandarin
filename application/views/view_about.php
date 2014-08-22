@@ -1,20 +1,16 @@
 <!-- body -->
+<div class="jumbotron jumbotron-about">
 <div class="container container-top">
-    <div class="page-header">
-		<h1>FunMandarin</h1>
-		<p>Fun Mandarin was developed to serve people who are interesting in learning Mandarin Chinese, 
-			and to provide guidance and structure for those interested in developing consciousness and understanding of Chinese culture.
-		</p>
-		<!--
-		<div class="banner" id="banner-about">
-		</div>
-		-->
-    </div>
+		<h1 id="header-text">FunMandarin</h1>
+</div>
 </div>
 <div class="container">
 	<div class="row">
 		<div class="col-md-1"></div>
-		<div class="col-md-8">
+		<div class="col-md-9">
+			<p>Fun Mandarin was developed to serve people who are interesting in learning Mandarin Chinese, 
+			and to provide guidance and structure for those interested in developing consciousness and understanding of Chinese culture.
+			</p>
 			<p>Our purpose is to give students a fun and enjoyable language learning experience.  All of our teachers are native Mandarin speakers.  They have been teaching American children and adults for nearly ten years.
 			They have adopted western teaching methods and second language learning strategies such as TPR (Total Physical Response), along with traditional Confucian teaching spirits (respect, patience, consistency) to inspire and instruct our students.  
 			Therefore, we have created and developed a curriculum that is flexible and adaptable, and carefully fulfills each of our student?s needs.
