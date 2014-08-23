@@ -15,6 +15,7 @@
               <p>Learning Mandarin can be EASY and FUN! <br />
 		   		Enjoy our wonderful curriculum, excellent teachers, and flexible schedules!
 			  </p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Open Classes</a></p>
             </div>
           </div>
         </div>
@@ -32,9 +33,9 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
+              <h1>Fun Stuff</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Open Classes</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">View Gallery</a></p>
             </div>
           </div>
         </div>
