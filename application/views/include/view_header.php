@@ -17,8 +17,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<!-- wrap all content -->
+	<!-- wrap for sticky footer -->
 	<div id="wrap">
+	<div class="container">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -43,4 +44,3 @@
 				</div><!-- end .navbar-collapse -->
 			</div>
 		</nav>
-        

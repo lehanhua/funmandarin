@@ -5,11 +5,14 @@ body {
 	height: 100%;
 }
 
+body {
+	padding-top: 15px;
+}
 .footer {
 	padding: 15px 0;
-	color: #fff;
-	background: #1d2429;
-	border-top: 1px solid #37424d;
+	color: #777;
+	background: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
 }
 
 /* ------------ sticky footer with fixed nav -------------*/
@@ -48,18 +51,6 @@ body {
 .container-top > h1 {
 	padding-top: 100px;
 }
-
-/* TODO: color scheme - nav
-.navbar-inverse {
-	background-color: #558C89;
-	border-color: #74AFAD;
-}
-
-.navbar-inverse .navbar-brand {
-	color: black;
-}
-*/
-
 /* ------------- jumbotron backgrounds ----------------*/
 .jumbotron-about {
 	background: url(../img/jumbotron-bg.jpg);
