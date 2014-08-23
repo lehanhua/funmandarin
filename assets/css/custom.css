@@ -12,7 +12,7 @@ body {
 	border-top: 1px solid #37424d;
 }
 
-/* sticky footer with fixed nav */
+/* ------------ sticky footer with fixed nav -------------*/
 #wrap {
 	min-height: 100%;
 	height: auto !important;
@@ -22,7 +22,7 @@ body {
 	padding: 0 0 75px;
 }
 
-/* hack so containers won't have huge ass padding on top */
+/* ------------- hack so containers won't have huge ass padding on top --------------- */
 #wrap > .container-top {
 	padding: 50px 15px 0;
 }
@@ -38,7 +38,7 @@ body {
   padding-right: 15px;
 }
 
-/* stylizin */
+/* ------------- stylizin ------------------ */
 .jumbotron {
   text-shadow: black 0 1px 1px;
   color: white;
@@ -49,7 +49,7 @@ body {
 	padding-top: 100px;
 }
 
-/* jumbotron backgrounds */
+/* ------------- jumbotron backgrounds ----------------*/
 .jumbotron-about {
 	background: url(../img/jumbotron-bg.jpg);
 	background-position: 0% 25%;
