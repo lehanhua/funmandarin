@@ -19,8 +19,8 @@
 <body>
 	<!-- wrap all content -->
 	<div id="wrap">
-		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-			<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon-bar"></span>

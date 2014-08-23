@@ -9,9 +9,9 @@ class Test extends CI_Controller {
     
     public function index(){
         
-        $this->load->view('include/view_header', $this->data);
+        //$this->load->view('include/view_header', $this->data);
         $this->load->view('view_test');
-        $this->load->view('include/view_footer');
+        //$this->load->view('include/view_footer');
     }
     
 }
