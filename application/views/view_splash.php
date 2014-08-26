@@ -70,7 +70,16 @@
 			</div><!-- end .row -->
 		</div>
 		<div class="col-md-3">
-			<h3>Latest News</h3>
+			<h2>Latest News</h2>
+			<h3>New website <small>August 31, 2014</small></h3>
+			<p>Hooray! new website! Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec 
+			id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> <a href=""> View &gt;&gt; </a>
+			<hr />
+			
+			<h3>New website <small>August 31, 2014</small></h3>
+			<p>Hooray! new website! Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec 
+			id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> <a href=""> View &gt;&gt; </a>
+			<hr />
 		</div>
 	</div>
 </div>

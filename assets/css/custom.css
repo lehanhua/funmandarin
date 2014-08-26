@@ -7,11 +7,24 @@ body {
 
 body {
 	padding-top: 15px;
+	background: url(../img/bg.jpg);
 }
+
+.jumbotron {
+  text-shadow: black 0 1px 1px;
+  color: white;
+  height: 350px;
+}
+
+.container-top > h1 {
+	padding-top: 100px;
+}
+
 .footer {
 	padding: 15px 0;
 	color: #777;
 	background: #f8f8f8;
+	/* background: url(../img/footbg.jpg) no-repeat bottom left; */
 	border-top: 1px solid #e7e7e7;
 }
 
@@ -41,16 +54,6 @@ body {
   padding-right: 15px;
 }
 
-/* ------------- stylizin ------------------ */
-.jumbotron {
-  text-shadow: black 0 1px 1px;
-  color: white;
-  height: 350px;
-}
-
-.container-top > h1 {
-	padding-top: 100px;
-}
 /* ------------- jumbotron backgrounds ----------------*/
 .jumbotron-about {
 	background: url(../img/jumbotron-bg.jpg);
