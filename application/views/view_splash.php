@@ -16,6 +16,7 @@
               <p>Learning Mandarin can be EASY and FUN! <br />
 		   		Enjoy our wonderful curriculum, excellent teachers, and flexible schedules!
 			  </p>
+			  <br />
 			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Open Classes</a></p>
             </div>
           </div>
@@ -26,7 +27,8 @@
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">See Daycare</a></p>
+              <br />
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">See Daycare</a></p>
             </div>
           </div>
         </div>
@@ -36,7 +38,8 @@
             <div class="carousel-caption">
               <h1>Fun Stuff</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">View Gallery</a></p>
+              <br />
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">View Gallery</a></p>
             </div>
           </div>
         </div>
@@ -54,10 +57,11 @@
 			<p><strong>Welcome to FunMandarin - the best place to learn Mandarin in the Bay Area</strong></p>
 			<br />
 			<div class="row">
-			<div class="col-xs-3">
+			<div class="col-xs-5">
+				<br />
 				<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNzAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
 			</div>
-			<div class="col-xs-9">
+			<div class="col-xs-7">
 				<p class="text-justify">Through songs, games, body movements, stories, arts & crafts, and hands-on activities, 
 				you will find Mandarin is such an easy language to learn. 
 				You will be immersed in a relaxed atmosphere with our native experienced teachers in a small group. 
