@@ -13,11 +13,11 @@ body {
 .jumbotron {
   text-shadow: black 0 1px 1px;
   color: white;
-  height: 350px;
+  height: 250px;
 }
 
 .container-top > h1 {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .footer {

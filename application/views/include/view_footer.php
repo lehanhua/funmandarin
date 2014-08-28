@@ -2,7 +2,12 @@
 </div><!-- end #wrap -->
 <footer class="footer" id="footer">
 	<div class="container">
-		<p>&copy; Funmandarin LLC 2014</p>
+		&copy; Funmandarin LLC 2014
+		<div class="pull-right">
+			Follow Us&nbsp; 
+			<a href="https://www.facebook.com/pages/FunMandarin-Daycare/121089004667030"><i class="fa fa-facebook-square fa-lg"></i></a>&nbsp;
+			<a href="http://www.yelp.com/biz/fun-mandarin-day-care-sunnyvale"><i class="fa fa-yelp"></i></a>
+		</div>
 	</div>
 </footer>
 
