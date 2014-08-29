@@ -11,16 +11,17 @@
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<!-- add IE8 support stuff -->
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<!-- wrap all content -->
+	<!-- wrap for sticky footer -->
 	<div id="wrap">
-		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-			<div class="container">
+	<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon-bar"></span>
@@ -43,4 +44,3 @@
 				</div><!-- end .navbar-collapse -->
 			</div>
 		</nav>
-        

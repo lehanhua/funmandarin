@@ -5,21 +5,30 @@ body {
 	height: 100%;
 }
 
+body {
+	padding-top: 15px;
+	background: url(../img/bg.jpg);
+}
+
+.jumbotron {
+  text-shadow: black 0 1px 1px;
+  color: white;
+  height: 250px;
+}
+
+.container-top > h1 {
+	padding-top: 50px;
+}
+
 .footer {
 	padding: 15px 0;
-	color: #fff;
-	background: #1d2429;
-	border-top: 1px solid #37424d;
+	color: #777;
+	background: #f8f8f8;
+	/* background: url(../img/footbg.jpg) no-repeat bottom left; */
+	border-top: 1px solid #e7e7e7;
 }
-/* banners */
-.banner {
-	height: 200px;
-	background-size: 100%;
-}
-#banner-about {
-	background-image: url("");
-}
-/* sticky footer with fixed nav */
+
+/* ------------ sticky footer with fixed nav -------------*/
 #wrap {
 	min-height: 100%;
 	height: auto !important;
@@ -29,7 +38,7 @@ body {
 	padding: 0 0 75px;
 }
 
-/* hack so containers won't have huge ass padding on top */
+/* ------------- hack so containers won't have huge ass padding on top --------------- */
 #wrap > .container-top {
 	padding: 50px 15px 0;
 }
@@ -45,15 +54,40 @@ body {
   padding-right: 15px;
 }
 
-/* stylizin */
-.jumbotron {
-  background: url(../img/jumbotron-bg.jpg);
-  background-position: 0% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-shadow: black 0 1px 1px;
-  color: white;
-  height: 350px;
+/* ------------- jumbotron backgrounds ----------------*/
+.jumbotron-about {
+	background: url(../img/jumbotron-bg.jpg);
+	background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------------- CAROUSEL STUFF ----------- */
+.carousel {
+  height: 400px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-align: left;
+}
+.carousel-caption > h1 {
+	font-size: 64px;
+}
+.carousel-caption > p {
+	font-size: 22px;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary??
