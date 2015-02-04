@@ -6,25 +6,21 @@
 	</div>
 	<div class="container">
 		<div class="col-md-12">
-			<h1>Alice in Wonderland, part dos</h1>
-				<p>'You ought to be ashamed of yourself for asking such a simple question,' added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, 'Drive on, old fellow! Don't be all day about it!' and he went on in these words:
-				'Yes, we went to school in the sea, though you mayn't believe it—'
-				'I never said I didn't!' interrupted Alice.
-				'You did,' said the Mock Turtle.</p>
+			<h2>New Website!</h2>
+				<p>Welcome to FunMandarin's new website. Hope you enjoy the stay :) 
+				If there are any issues, please <a href="#">Contact Us</a>. </p>
 			<div>
-				<span class="badge">Posted 2012-08-02 20:47:04</span>
-				<div class="pull-right"><span class="label label-default">alice</span> <span class="label label-primary">story</span> <span class="label label-success">blog</span> <span class="label label-info">personal</span> <span class="label label-warning">Warning</span>
-					<span class="label label-danger">Danger</span>
+				<span class="badge">Oct 2, 2014</span>
+				<div class="pull-right"><span class="label label-info">Website</span>
 				</div><!-- /.pull-right -->       
 			</div>
 		<hr>
-			<h1>Revolution has begun!</h1>
+			<h2>Fun Mandarin 2014 Registration Form</h2>
 			<p>'I am bound to Tahiti for more men.'
 				'Very good. Let me board you a moment—I come in peace.' With that he leaped from the canoe, swam to the boat; and climbing the gunwale, stood face to face with the captain.
 				'Cross your arms, sir; throw back your head. Now, repeat after me. As soon as Steelkilt leaves me, I swear to beach this boat on yonder island, and remain there six days. If I do not, may lightning strike me!'A pretty scholar,' laughed the Lakeman. 'Adios, Senor!' and leaping into the sea, he swam back to his comrades.</p>
 			<div>
-				<span class="badge">Posted 2012-08-02 20:47:04</span><div class="pull-right"><span class="label label-default">alice</span> <span class="label label-primary">story</span> <span class="label label-success">blog</span> <span class="label label-info">personal</span> <span class="label label-warning">Warning</span>
-				<span class="label label-danger">Danger</span></div>
+				<span class="badge">Jan 4, 2014</span><div class="pull-right"><span class="label label-info">Daycare</span> <span class="label label-info">Register</span>
 			</div>     
 		<hr>
 	</div><!-- /.col-md-12 -->
@@ -32,7 +28,6 @@
   <li><a href="#">&laquo;</a></li>
   <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
   <li><a href="#">2</a></li>
-  <li><a href="#">3</a></li>
   <li><a href="#">&raquo;</a></li>
 </ul>
 </div><!-- /.container -->

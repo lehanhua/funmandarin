@@ -17,7 +17,7 @@
 		   		Enjoy our wonderful curriculum, excellent teachers, and flexible schedules!
 			  </p>
 			  <br />
-			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Open Classes</a></p>
+			  <p><a class="btn btn-lg btn-primary" href="<?= base_url('classes')?>" role="button">Open Classes</a></p>
             </div>
           </div>
         </div>
