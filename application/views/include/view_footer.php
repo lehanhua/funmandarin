@@ -5,8 +5,8 @@
 		&copy; Funmandarin LLC 2014
 		<div class="pull-right">
 			Follow Us&nbsp; 
-			<a href="https://www.facebook.com/pages/FunMandarin-Daycare/121089004667030"><i class="fa fa-facebook-square fa-lg"></i></a>&nbsp;
-			<a href="http://www.yelp.com/biz/fun-mandarin-day-care-sunnyvale"><i class="fa fa-yelp"></i></a>
+			<a href="https://www.facebook.com/pages/Fun-Mandarin-Learning-Center-LLC/170152323074026" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a>&nbsp;
+			<a href="http://www.yelp.com/biz/fun-mandarin-day-care-sunnyvale" target="_blank"><i class="fa fa-yelp"></i></a>
 		</div>
 	</div>
 </footer>
