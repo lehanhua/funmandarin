@@ -32,7 +32,7 @@
 				</div><!-- end .navbar-header -->
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li <?php if ($currPage == 'About') echo 'class="active"' ?>><?= anchor(site_url('about/'), 'About') ?></li>
+						<li <?php if ($currPage == 'About') echo 'class="active"' ?>><?= anchor(site_url('about/'), 'Philosophy') ?></li>
 						<li <?php if ($currPage == 'News') echo  'class="active"' ?>><?= anchor(site_url('news/'), 'News') ?></li>
 						<li <?php if ($currPage == 'Daycare') echo 'class="active"' ?>><?= anchor(site_url('daycare/'), 'Daycare') ?></li>
 						<li <?php if ($currPage == 'Classes') echo 'class="active"' ?>><?= anchor(site_url('classes/'), 'Classes') ?></li>
