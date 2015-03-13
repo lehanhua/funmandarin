@@ -9,7 +9,7 @@
 
 	<title><?php echo $title ?></title>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
@@ -32,7 +32,7 @@
 				</div><!-- end .navbar-header -->
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li <?php if ($currPage == 'About') echo 'class="active"' ?>><?= anchor(site_url('about/'), 'About') ?></li>
+						<li <?php if ($currPage == 'About') echo 'class="active"' ?>><?= anchor(site_url('about/'), 'Philosophy') ?></li>
 						<li <?php if ($currPage == 'News') echo  'class="active"' ?>><?= anchor(site_url('news/'), 'News') ?></li>
 						<li <?php if ($currPage == 'Daycare') echo 'class="active"' ?>><?= anchor(site_url('daycare/'), 'Daycare') ?></li>
 						<li <?php if ($currPage == 'Classes') echo 'class="active"' ?>><?= anchor(site_url('classes/'), 'Classes') ?></li>
