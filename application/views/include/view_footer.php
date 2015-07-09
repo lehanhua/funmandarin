@@ -2,7 +2,7 @@
 </div><!-- end #wrap -->
 <footer class="footer" id="footer">
 	<div class="container">
-		&copy; Funmandarin LLC 2014
+		&copy; Funmandarin LLC <?= date('Y') ?>
 		<div class="pull-right">
 			Follow Us&nbsp; 
 			<a href="https://www.facebook.com/pages/Fun-Mandarin-Learning-Center-LLC/170152323074026" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a>&nbsp;

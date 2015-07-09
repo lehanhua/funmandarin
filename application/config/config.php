@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-//$config['base_url']	= 'http://localhost:8888/funmandarin';
+//for production
+//$config['base_url']	= 'http://www.funmandarin.com/;
 $config['base_url'] = 'http://localhost/funmandarin';
 
 /*
