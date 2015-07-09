@@ -15,3 +15,6 @@ class About extends CI_Controller {
     }
     
 }
+
+/* End of file about.php */
+/* Location: ./application/controllers/about.php */

@@ -15,3 +15,6 @@ class Daycare extends CI_Controller {
     }
     
 }
+
+/* End of file daycare.php */
+/* Location: ./application/controllers/daycare.php */

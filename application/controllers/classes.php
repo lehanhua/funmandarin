@@ -15,3 +15,6 @@ class Classes extends CI_Controller {
     }
     
 }
+
+/* End of file classes.php */
+/* Location: ./application/controllers/classes.php */
