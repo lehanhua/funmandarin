@@ -6,6 +6,11 @@
 		</div>
 	</div>
 	<div class="container">
+		<!-- form selection here -->
+		<div class="row">
+			<form class="form-inline">
+			</form>
+		</div><!-- end .row -->
 		<?= validation_errors() ?>
 		<div class="row">
 			<div class="col-md-6">
