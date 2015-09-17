@@ -9,7 +9,8 @@
 
 	<title><?php echo $title ?></title>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
@@ -39,6 +40,7 @@
 						<li <?php if ($currPage == 'Teachers') echo 'class="active"' ?>><?= anchor(site_url('teachers/'), 'Teachers') ?></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
+						<li <?php if ($currPage == 'Register') echo 'class="active"' ?>><?= anchor(site_url('register/'), 'Register') ?></li>
 						<li <?php if ($currPage == 'Contact') echo 'class="active"' ?>><?= anchor(site_url('contact/'), 'Contact') ?></li>
 					</ul>
 				</div><!-- end .navbar-collapse -->

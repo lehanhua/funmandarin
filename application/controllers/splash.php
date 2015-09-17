@@ -15,3 +15,6 @@ class Splash extends CI_Controller {
     }
     
 }
+
+/* End of file splash.php */
+/* Location: ./application/controllers/splash.php */

@@ -15,3 +15,6 @@ class Teachers extends CI_Controller {
     }
     
 }
+
+/* End of file teachers.php */
+/* Location: ./application/controllers/teachers.php */

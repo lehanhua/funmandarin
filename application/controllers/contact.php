@@ -15,3 +15,6 @@ class Contact extends CI_Controller {
     }
     
 }
+
+/* End of file contact.php */
+/* Location: ./application/controllers/contact.php */
