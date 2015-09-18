@@ -3,7 +3,7 @@
 		<div class="page-header">
 			<h1>Register</h1>
 			<p>Select a school to register for <?= date("Y") ?> classes</p>
-			<select class="selectpicker">
+			<select class="selectpicker" data-style="btn-primary">
 				<option>Select School</option>
 				<option>Cumberland</option>
   				<option>Hilldale</option>
