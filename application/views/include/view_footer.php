@@ -18,7 +18,7 @@
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <? if (isset($jsFile)) : ?>
-<script type="text/javascript" src="assets/js/<?=$jsFile?>"</script>
+<script src="<?php echo base_url('assets/js/'.$jsFile) ?>"></script>
 <? endif; ?>
 </body>
 </html>
