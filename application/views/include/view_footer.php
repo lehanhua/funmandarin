@@ -3,8 +3,10 @@
 <footer class="footer" id="footer">
 	<div class="container">
 		&copy; Funmandarin LLC <?= date('Y') ?>
-		&nbsp; <?= anchor(site_url('#'), 'Legal')?>
-		&nbsp; <?= anchor(site_url('login/'), 'Admin')?>
+		&middot; <?= anchor(site_url('#'), 'Legal')?>
+		<!--
+		&middot; <?= anchor(site_url('login/'), 'Admin')?>
+	-->
 		<div class="pull-right">
 			Follow Us&nbsp; 
 			<a href="https://www.facebook.com/pages/Fun-Mandarin-Learning-Center-LLC/170152323074026" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a>&nbsp;
