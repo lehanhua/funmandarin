@@ -11,7 +11,7 @@ class Classes extends CI_Controller {
         
         $this->load->view('include/view_header', $this->data);
         $this->load->view('view_classes');
-        $this->load->view('include/view_footer');
+        $this->load->view('include/view_footer', $this->data);
     }
     
 }

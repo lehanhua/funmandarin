@@ -5,26 +5,13 @@ class Register extends CI_Controller {
         parent::__construct();
         $this->data['title'] = "Fun Mandarin | Register";
         $this->data['currPage'] = "Register";
+        $this->data['jsFile'] = "register.js";
     }
     
     public function index() {
-        $this->load->helper('form');
-        $this->load->library('form_validation');
-
-        //form validation rules here
-        $this->form_validation->set_rules('firstname', 'First Name', 'required');
-        $this->form_validation->set_rules('lastname', 'Last Name', 'required');
-
-        if ($this->form_validation->run() === FALSE) {
-            $this->load->view('include/view_header', $this->data);
-            $this->load->view('view_register');
-            $this->load->view('include/view_footer');
-        } else {
-            //store to DB
-
-            //show success page
-            echo "submitted successfully";
-        }
+        $this->load->view('include/view_header', $this->data);
+        $this->load->view('view_register');
+        $this->load->view('include/view_footer', $this->data);
     }    
 }
 
