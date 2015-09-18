@@ -3,18 +3,13 @@
 		<div class="page-header">
 			<h1>Register</h1>
 			<p>Select a school to register for <?= date("Y") ?> classes</p>
-			<div class="dropdown">
-  				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    				Select School
-    			<span class="caret"></span>
-				</button>
-			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><a href="#">Cumberland</a></li>
-			    <li><a href="#">Hilldale</a></li>
-			    <li><a href="#">Synapse</a></li>
-			    <li><a href="#">AppleSeed</a></li>
-			  </ul>
-			</div>
+			<select class="selectpicker">
+				<option>Select School</option>
+				<option>Cumberland</option>
+  				<option>Hilldale</option>
+  				<option>Synapse</option>
+  				<option>AppleSeed</option>
+			</select>
 		</div>
 	</div>
 	<div class="container">
