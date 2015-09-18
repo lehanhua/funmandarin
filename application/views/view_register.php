@@ -10,7 +10,7 @@
 		<div class="col-md-12">
 			<form class="form-inline">
 				<div class="form-group">
-					<label for="selectSchool">School</label>
+					<label for="selectSchool">Select School</label>
 					<br />
       				<select id="selectSchool" class="form-control">
         				<option>Cumberland</option>
@@ -26,22 +26,22 @@
 		</div><!-- end .row -->
 		<br />
 		<div class="row">
-			<div class="col-md-4">
-				<div class="list-group cumberland">
-				  <a href="#" class="list-group-item active">Conversational</a>
-				  <a href="#" class="list-group-item">Mandarin Level 1</a>
-				  <a href="#" class="list-group-item">Mandarin Level 2</a>
-				  <a href="#" class="list-group-item">Mandarin Level 3</a>
-				</div>
-				<div class="list-group hilldale" style="display:none">
-				  <a href="#" class="list-group-item active">Hilldale Level 1</a>
-				  <a href="#" class="list-group-item">Hilldale Level 2</a>
-				</div>
+			<div class="col-md-3">
+				<ul class="list-group cumberland">
+				  <li class="list-group-item active">Conversational</a>
+				  <li class="list-group-item">Mandarin Level 1</a>
+				  <li class="list-group-item">Mandarin Level 2</a>
+				  <li class="list-group-item">Mandarin Level 3</a>
+				</ul>
+				<ul class="list-group hilldale" style="display:none">
+				  <li class="list-group-item active">Hilldale Level 1</a>
+				  <li class="list-group-item">Hilldale Level 2</a>
+				</ul>
 			</div><!-- end .col-md-6 -->
-			<div class="col-md-8">
+			<div class="col-md-9">
 				<h2 style="margin-top:0px">Class date (Winter 2015)</h2>
 				<p>test text</p>
 			</div>
 		</div><!-- end .row -->
-		<input type="submit" class="btn btn-default" name="submit" value="Register" />
+		<input type="submit" class="btn btn-default" id="register" value="Register" />
 	</div><!-- end .container -->
