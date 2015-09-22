@@ -26,16 +26,27 @@
 			</div>
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Level 1 <small>AUG 25 2015 - OCT 22 2015</small></h3>
-					<p>No prior Mandarin experience required. Students will be introduced to the Mandarin language and Chinese culture.
-						Our main focus is to develop students’ listening and speaking skills. Students will learn words and short sentences while practicing the four tones of the Chinese language.
-						Teachers will use a variety of fun and engaging material and will encourage students to speak while playing games, learning songs, and working with Chinese crafts and more.
+					<h3>Conversational <small>OCT 01 2015 - DEC 17 2015</small></h3>
+					<p>Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3">
-					<h3>Level 2</h3>
+				<div class="col-md-10">
+					<h3>Mandarin Level 1<small>OCT 02 2015 - DEC 18 2015</small></h3>
+					<p>FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required)</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<h3>Mandarin Level 2<small>OCT 02 2015 - DEC 18 2015</small></h3>
+					<p>FM Level 2: K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience; 3rd graders with no Mandarin knowledge may enroll)</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<h3>Mandarin Level 3<small>OCT 02 2015 - DEC 18 2015</small></h3>
+					<p>K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience 3rd graders with no Mandarin knowledge may enroll)</p>
 				</div>
 			</div>
 		</div><!-- end .school-info .Cumberland -->
