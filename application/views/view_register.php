@@ -33,19 +33,19 @@
 			</div>
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Mandarin Level 1<small>OCT 02 2015 - DEC 18 2015</small></h3>
+					<h3>Mandarin Level 1 <small>OCT 02 2015 - DEC 18 2015</small></h3>
 					<p>FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required)</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Mandarin Level 2<small>OCT 02 2015 - DEC 18 2015</small></h3>
+					<h3>Mandarin Level 2 <small>OCT 02 2015 - DEC 18 2015</small></h3>
 					<p>FM Level 2: K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience; 3rd graders with no Mandarin knowledge may enroll)</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Mandarin Level 3<small>OCT 02 2015 - DEC 18 2015</small></h3>
+					<h3>Mandarin Level 3 <small>OCT 02 2015 - DEC 18 2015</small></h3>
 					<p>K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience 3rd graders with no Mandarin knowledge may enroll)</p>
 				</div>
 			</div>
