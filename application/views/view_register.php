@@ -4,7 +4,6 @@
 			<h1>Register</h1>
 			<p>Select a school to register for <?= date("Y") ?> classes</p>
 			<select class="selectpicker" data-style="btn-primary">
-				<option>Select School</option>
 				<option>Cumberland</option>
   				<option>Hilldale</option>
   				<option>Synapse</option>
@@ -13,7 +12,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="school-info Cumberland" style="display:none">
+		<div class="school-info Cumberland">
 			<div class="row">
 				<div class="col-md-8 main">
 						<h2>Cumberland School</h2>
@@ -24,7 +23,21 @@
 				<div class="col-md-4">
 					map
 				</div>
-			</div><!-- end .row -->
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<h3>Level 1 <small>AUG 25 2015 - OCT 22 2015</small></h3>
+					<p>No prior Mandarin experience required. Students will be introduced to the Mandarin language and Chinese culture.
+						Our main focus is to develop students’ listening and speaking skills. Students will learn words and short sentences while practicing the four tones of the Chinese language.
+						Teachers will use a variety of fun and engaging material and will encourage students to speak while playing games, learning songs, and working with Chinese crafts and more.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<h3>Level 2</h3>
+				</div>
+			</div>
 		</div><!-- end .school-info .Cumberland -->
 		<div class="school-info Hilldale" style="display:none">
 			<div class="row">
@@ -37,6 +50,6 @@
 				<div class="col-md-4">
 					map
 				</div>
-			</div><!-- end .row -->
+			</div>
 		</div><!-- end .school-info .Hilldale -->
 	</div><!-- end .container -->
