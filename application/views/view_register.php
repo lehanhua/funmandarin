@@ -31,31 +31,38 @@
 					map
 				</div>
 			</div>
+			<br /><br />
 			<div class="row">
 				<div class="col-md-10">
 					<h3>Conversational <small>OCT 01 2015 - DEC 17 2015</small></h3>
-					<p class="section-indent">Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
+					<p class="section-indent"><span class="glyphicon glyphicon-list-alt" style="font-size: 20px" aria-hidden="true"></span> Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
 					</p>
+					<p class="section-indent"><span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span> Registration Period: 9/14/2015 - 10/14/2015 </p>
+					
 				</div>
 			</div>
+			<hr />
 			<div class="row">
 				<div class="col-md-10">
 					<h3>Mandarin Level 1 <small>OCT 02 2015 - DEC 18 2015</small></h3>
 					<p class="section-indent">FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required)</p>
 				</div>
 			</div>
+			<hr />
 			<div class="row">
 				<div class="col-md-10">
 					<h3>Mandarin Level 2 <small>OCT 02 2015 - DEC 18 2015</small></h3>
 					<p class="section-indent">FM Level 2: K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience; 3rd graders with no Mandarin knowledge may enroll)</p>
 				</div>
 			</div>
+			<hr />
 			<div class="row">
 				<div class="col-md-10">
 					<h3>Mandarin Level 3 <small>OCT 02 2015 - DEC 18 2015</small></h3>
 					<p class="section-indent">K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience 3rd graders with no Mandarin knowledge may enroll)</p>
 				</div>
 			</div>
+			<hr />
 		</div><!-- end .school-info .Cumberland -->
 		<div class="school-info Hilldale" style="display:none">
 			<div class="row">
