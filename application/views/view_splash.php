@@ -51,7 +51,7 @@
 <div class="container" style="padding-top: 20px;">
 	<div class="row">
 		<div class="col-lg-8">
-			<h1>趣味中文網 FunMandarin</h1>
+      <h1><img></img>趣味中文網 FunMandarin</h1>
 			<p><strong>Welcome to FunMandarin - the best place to learn Mandarin in the Bay Area</strong></p>
 			<br />
 			<div class="row">

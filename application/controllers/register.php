@@ -16,7 +16,7 @@ class Register extends CI_Controller {
 
     //temporary function to handle the registration process
     public function classes($classId){
-        echo "class".$classId;
+        echo "class ".$classId;
     }
 }
 
