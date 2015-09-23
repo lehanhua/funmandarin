@@ -51,7 +51,7 @@
 <div class="container" style="padding-top: 20px;">
 	<div class="row">
 		<div class="col-lg-8">
-      <h1><img></img>趣味中文網 FunMandarin</h1>
+      <h1></img>趣味中文網 FunMandarin</h1>
 			<p><strong>Welcome to FunMandarin - the best place to learn Mandarin in the Bay Area</strong></p>
 			<br />
 			<div class="row">
@@ -60,7 +60,7 @@
 				<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNzAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
 			</div>
 			<div class="col-lg-7">
-				<p class="text-justify">Through songs, games, body movements, stories, arts & crafts, and hands-on activities, 
+				<p class="text-justify">Through songs, games, body movements, stories, arts &amp; crafts, and hands-on activities, 
 				you will find Mandarin is such an easy language to learn. 
 				You will be immersed in a relaxed atmosphere with our native experienced teachers in a small group. 
 				You can explore the amazing history of China, its ancient literature, culture and traditions. </p>
