@@ -35,10 +35,11 @@
 			<div class="row">
 				<div class="col-md-10">
 					<h3>Conversational <small>OCT 01 2015 - DEC 17 2015</small></h3>
-					<p class="section-indent"><span class="glyphicon glyphicon-list-alt" style="font-size: 20px" aria-hidden="true"></span> Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
+					<p class="section-indent"><!--<span class="glyphicon glyphicon-list-alt" style="font-size: 20px" aria-hidden="true"></span>--> Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
 					</p>
-					<p class="section-indent"><span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span> Registration Period: 9/14/2015 - 10/14/2015 </p>
-					
+					<p class="section-indent"><!--<span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span>--> Registration Period: 9/14/2015 - 10/14/2015 </p>
+					<p class="section-indent">Tuition: $170.00 </p>
+					<button type="button" class="btn btn-success pull-right">Register</button>
 				</div>
 			</div>
 			<hr />
