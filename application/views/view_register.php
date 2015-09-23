@@ -34,7 +34,7 @@
 			<br /><br />
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Conversational <small>OCT 01 2015 - DEC 17 2015</small></h3>
+					<h3>Conversational <small>10/01/2015 - 12/17/2015</small></h3>
 					<p class="section-indent"><!--<span class="glyphicon glyphicon-list-alt" style="font-size: 20px" aria-hidden="true"></span>--> Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
 					</p>
 					<p class="section-indent"><!--<span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span>--> Registration Period: 9/14/2015 - 10/14/2015 </p>
@@ -45,8 +45,11 @@
 			<hr />
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Mandarin Level 1 <small>OCT 02 2015 - DEC 18 2015</small></h3>
-					<p class="section-indent">FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required)</p>
+					<h3>Mandarin Level 1 <small>10/02/2015 - 12/18/2015</small></h3>
+					<p class="section-indent">FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required). Class size is 8 to 14 children.</p>
+					<p class="section-indent">Registration Period: 9/14/2015 - 10/14/2015 </p>
+					<p class="section-indent">Tuition: $170.00 </p>
+					<button type="button" class="btn btn-success pull-right">Register</button>
 				</div>
 			</div>
 			<hr />
@@ -75,6 +78,26 @@
 					</div>
 				<div class="col-md-4">
 					map
+				</div>
+			</div>
+			<br /><br />
+			<div class="row">
+				<div class="col-md-10">
+					<h3>Hilldale Level 1 <small>8/25/2015 - 10/22/2015</small></h3>
+					<p class="section-indent">No prior Mandarin experience required. Students will be introduced to the Mandarin language and Chinese culture. Our main focus is to develop students’ listening and speaking skills. Students will learn words and short sentences while practicing the four tones of the Chinese language. Teachers will use a variety of fun and engaging material and will encourage students to speak while playing games, learning songs, and working with Chinese crafts and more.</p>
+					<p class="section-indent">Registration Period: 8/24/2015 - 9/27/2015 </p>
+					<p class="section-indent">Tuition: $375.00 </p>
+					<button type="button" class="btn btn-success pull-right">Register</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<h3>Hilldale Level 1 <small>8/25/2015 - 10/22/2015</small></h3>
+					<p class="section-indent">This is a continuation of Intermediate Chinese from last quarter. Students should be able to carry on a simple conversation using the words and sentences acquired from their previous experiences. Students will further develop their listening and speaking skills through fun and engaging games and interactive activities. Based on their age group, students will learn to read and write simple Chinese characters.</p>
+					<p class="section-indent">We encourage to use the online learning tool to enhance their Mandarin skills at home. Further instructions will be sent to the parents when the registration in completed.</p>
+					<p class="section-indent">Registration Period: 8/23/2015 - 9/27/2015 </p>
+					<p class="section-indent">Tuition: $375.00 </p>
+					<button type="button" class="btn btn-success pull-right">Register</button>
 				</div>
 			</div>
 		</div><!-- end .school-info .Hilldale -->
