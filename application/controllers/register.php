@@ -12,7 +12,7 @@ class Register extends CI_Controller {
         $this->load->view('include/view_header', $this->data);
         $this->load->view('view_register');
         $this->load->view('include/view_footer', $this->data);
-    }    
+    }
 }
 
 /* End of file register.php */

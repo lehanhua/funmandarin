@@ -39,7 +39,7 @@
 					</p>
 					<p class="section-indent"><!--<span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span>--> Registration Period: 9/14/2015 - 10/14/2015 </p>
 					<p class="section-indent">Tuition: $170.00 </p>
-					<button type="button" class="btn btn-success pull-right">Register</button>
+					<a href="#" class="btn btn-success pull-right">Register</a>
 				</div>
 			</div>
 			<hr />
@@ -49,7 +49,7 @@
 					<p class="section-indent">FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required). Class size is 8 to 14 children.</p>
 					<p class="section-indent">Registration Period: 9/14/2015 - 10/14/2015 </p>
 					<p class="section-indent">Tuition: $170.00 </p>
-					<button type="button" class="btn btn-success pull-right">Register</button>
+					<a href="#" class="btn btn-success pull-right">Register</a>
 				</div>
 			</div>
 			<hr />
@@ -87,7 +87,7 @@
 					<p class="section-indent">No prior Mandarin experience required. Students will be introduced to the Mandarin language and Chinese culture. Our main focus is to develop students’ listening and speaking skills. Students will learn words and short sentences while practicing the four tones of the Chinese language. Teachers will use a variety of fun and engaging material and will encourage students to speak while playing games, learning songs, and working with Chinese crafts and more.</p>
 					<p class="section-indent">Registration Period: 8/24/2015 - 9/27/2015 </p>
 					<p class="section-indent">Tuition: $375.00 </p>
-					<button type="button" class="btn btn-success pull-right">Register</button>
+					<a href="#" class="btn btn-success pull-right">Register</a>
 				</div>
 			</div>
 			<div class="row">
@@ -97,7 +97,7 @@
 					<p class="section-indent">We encourage to use the online learning tool to enhance their Mandarin skills at home. Further instructions will be sent to the parents when the registration in completed.</p>
 					<p class="section-indent">Registration Period: 8/23/2015 - 9/27/2015 </p>
 					<p class="section-indent">Tuition: $375.00 </p>
-					<button type="button" class="btn btn-success pull-right">Register</button>
+					<a href="#" class="btn btn-success pull-right">Register</a>
 				</div>
 			</div>
 		</div><!-- end .school-info .Hilldale -->
