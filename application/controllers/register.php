@@ -13,6 +13,11 @@ class Register extends CI_Controller {
         $this->load->view('view_register');
         $this->load->view('include/view_footer', $this->data);
     }
+
+    //temporary function to handle the registration process
+    public function classes($classId){
+        echo "class".$classId;
+    }
 }
 
 /* End of file register.php */
