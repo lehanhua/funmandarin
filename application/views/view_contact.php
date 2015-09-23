@@ -33,11 +33,9 @@
 				<h2 id="locations">Locations</h2>
 				<br />
 				<h3>FunMandarin Daycare Iowa</h3>
-					<p>110 West Iowa Ave</p>
-					<p>Sunnyvale, CA 94086</p>
+					<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>	110 West Iowa Ave, Sunnyvale, CA 94086</p>
 				<h3>FunMandarin Daycare Lillian</h3>
-					<p>1345 Lillian Avenue</p>
-					<p>Sunnyvale, CA 94087</p>
+					<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>	1345 Lillian Avenue, Sunnyvale, CA 94087</p>
 			</div>
 			<hr />
 			<!--
