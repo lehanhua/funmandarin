@@ -8,14 +8,14 @@
   				<option>Hilldale</option>
   				<option>Synapse</option>
   				<option>AppleSeed</option>
-			</select>
+			</select><br />
 		</div>
 	</div>
 	<div class="container">
-		<div class="school-info Cumberland">
-			<div class="row">
+		<div class="school Cumberland">
+			<div class="row school-info">
 				<div class="col-md-8 main">
-					<h2>Cumberland School</h2>
+					<h2 style="margin-bottom:20px;margin-top:10px">Cumberland School</h2>
 					<p>
   						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>	
 						Cumberland Elementary School, 824 Cumberland Drive, Sunnyvale, CA 94087 <a href="#" aria-hidden="true">(show map)</a>
@@ -30,46 +30,63 @@
 				<div class="col-md-4">
 					map
 				</div>
-			</div>
-			<br /><br />
+			</div><!-- end .row .school-info -->
+			<br />
 			<div class="row">
 				<div class="col-md-10">
-					<h3>Conversational <small>10/01/2015 - 12/17/2015</small></h3>
-					<p class="section-indent"><!--<span class="glyphicon glyphicon-list-alt" style="font-size: 20px" aria-hidden="true"></span>--> Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
-					</p>
-					<p class="section-indent"><!--<span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span>--> Registration Period: 9/14/2015 - 10/14/2015 </p>
-					<p class="section-indent">Tuition: $170.00 </p>
-					<a href="<?= site_url('register/classes/conversational') ?>" class="btn btn-success pull-right" target="_blank">Register</a>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">Conversational <small>10/01/2015 - 12/17/2015</small></h2>
+						</div>
+						<div class="panel-body">
+							<p class="text-info">Conversational Mandarin: 3rd-5th graders (daily life applications, theme-based, equivalent to adult class of Mandarin for travelers; 3rd graders must have taken Level 3 or equivalent, 4th and 5th graders with no Mandarin knowledge may enroll)
+							</p>
+							<p><!--<span class="glyphicon glyphicon-time" style="font-size: 20px" aria-hidden="true"></span>--> Registration Period: 9/14/2015 - 10/14/2015 </p>
+							<p class="section-indent">Tuition: $170.00 </p>
+							<a href="<?= site_url('register/classes/conversational') ?>" class="btn btn-success pull-right" target="_blank">Register</a>
+						</div>
+					</div>
+					<br />
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Mandarin Level 1 <small>10/02/2015 - 12/18/2015</small></h3>
+						</div>
+						<div class="panel-body">
+							<p class="text-info">FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required). Class size is 8 to 14 children.</p>
+							<p>Registration Period: 9/14/2015 - 10/14/2015 </p>
+							<p class="section-indent">Tuition: $170.00 </p>
+							<a href="#" class="btn btn-success pull-right" target="_blank">Register</a>
+						</div>
+					</div>
+					<br />
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Mandarin Level 2 <small>10/02/2015 - 12/18/2015</small></h3>
+						</div>
+						<div class="panel-body">
+							<p class="text-info">FM Level 2: K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience; 3rd graders with no Mandarin knowledge may enroll)</p>
+							<p>Registration Period: 9/14/2015 - 10/14/2015 </p>
+							<p class="section-indent">Tuition: $170.00 </p>
+							<a href="#" class="btn btn-success pull-right" target="_blank">Register</a>
+						</div>
+					</div>
+					<br />
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Mandarin Level 3 <small>10/02/2015 - 12/18/2015</small></h3>
+						</div>
+						<div class="panel-body">
+							<p class="text-info">K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience 3rd graders with no Mandarin knowledge may enroll)</p>
+							<p>Registration Period: 9/14/2015 - 10/14/2015 </p>
+							<p class="section-indent">Tuition: $170.00 </p>
+							<a href="#" class="btn btn-success pull-right" target="_blank">Register</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<hr />
-			<div class="row">
-				<div class="col-md-10">
-					<h3>Mandarin Level 1 <small>10/02/2015 - 12/18/2015</small></h3>
-					<p class="section-indent">FunMandarin Level 1: K-2nd graders (no Mandarin knowledge required). Class size is 8 to 14 children.</p>
-					<p class="section-indent">Registration Period: 9/14/2015 - 10/14/2015 </p>
-					<p class="section-indent">Tuition: $170.00 </p>
-					<a href="#" class="btn btn-success pull-right" target="_blank">Register</a>
-				</div>
-			</div>
-			<hr />
-			<div class="row">
-				<div class="col-md-10">
-					<h3>Mandarin Level 2 <small>OCT 02 2015 - DEC 18 2015</small></h3>
-					<p class="section-indent">FM Level 2: K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience; 3rd graders with no Mandarin knowledge may enroll)</p>
-				</div>
-			</div>
-			<hr />
-			<div class="row">
-				<div class="col-md-10">
-					<h3>Mandarin Level 3 <small>OCT 02 2015 - DEC 18 2015</small></h3>
-					<p class="section-indent">K-3rd graders (children who took Level 1 last year or equivalent: some reading and writing, with previous Mandarin class experience 3rd graders with no Mandarin knowledge may enroll)</p>
-				</div>
-			</div>
-			<hr />
-		</div><!-- end .school-info .Cumberland -->
-		<div class="school-info Hilldale" style="display:none">
-			<div class="row">
+		</div><!-- end .school .Cumberland -->
+		<div class="school Hilldale" style="display:none">
+			<div class="row school-info">
 				<div class="col-md-8 main">
 						<h2>Hilldale School</h2>
 						<p>
@@ -79,7 +96,7 @@
 				<div class="col-md-4">
 					map
 				</div>
-			</div>
+			</div><!-- end .school .school-info -->
 			<br /><br />
 			<div class="row">
 				<div class="col-md-10">
@@ -100,5 +117,5 @@
 					<a href="#" class="btn btn-success pull-right" target="_blank">Register</a>
 				</div>
 			</div>
-		</div><!-- end .school-info .Hilldale -->
+		</div><!-- end .school .Hilldale -->
 	</div><!-- end .container -->

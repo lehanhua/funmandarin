@@ -33,6 +33,10 @@ body {
   padding-left: 20px;
 }
 
+.panel-title {
+  font-size: 20px;
+}
+
 /* ------------ sticky footer with fixed nav -------------*/
 #wrap {
 	min-height: 100%;
