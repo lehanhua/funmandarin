@@ -5,10 +5,10 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="col-md-12">
+		<div class="col-md-11">
 			<?php foreach ($news as $news_item): ?>
 				<h2><?= $news_item['title'] ?></h2>
-				<p>
+				<p class="main">
 					<?= $news_item['text'] ?>
 				</p>
 				<div>
