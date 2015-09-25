@@ -1,25 +1,19 @@
 <?php
 class News_model extends CI_Model {
 
-	public function __construct()
-	{
+	public function __construct(){
 		$this->load->database();
 	}
 
 	/**
-	* Gets all news items in the table "news", or one news entry
-	* by its $slug index
+	* Gets all news items in the table "news", sorted by date
 	*
-	* @aparam 	string $slug 
-	* @return  	array array of rows in news table, or array of columns of one row 
+	* @return  	array array of rows in news table 
 	*/
-	public function get_news($slug = FALSE)
-	{
-		if ($slug === FALSE)
-		{
-			$query = $this->db->get('news');
-			return $query->result_array();
-		}
+	public function get_news(){	
+		$this->db->order_by('ts','desc');
+		$query = $this->db->get('news');
+		return $query->result_array();
 	}
 }
 
