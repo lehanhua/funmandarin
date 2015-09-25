@@ -9,7 +9,6 @@ class News extends CI_Controller {
     }
     
     public function index(){
-        $this->load->helper('date');
         $this->data['news'] = $this->news_model->get_news();
 
         $this->load->view('include/view_header', $this->data);
