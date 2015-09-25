@@ -73,15 +73,13 @@
 		</div>
 		<div class="col-lg-4">
 			<h2>Latest News</h2>
-			<h3>New website <small>August 31, 2014</small></h3>
-			<p class="text-justify">Hooray! new website! Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec 
-			id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> <a href=""> View &gt;&gt; </a>
-			<hr />
-			
-			<h3>New website <small>August 31, 2014</small></h3>
-			<p>Hooray! new website! Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec 
-			id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> <a href=""> View &gt;&gt; </a>
-			<hr />
+      <?php foreach ($news as $news_item): ?>
+        <h3><?= $news_item['title'] ?> <small><?= $news_item['ts'] ?></small></h3>
+        <p class="text-justify">
+          <?= $news_item['text'] ?>
+        </p> <a href="<?= site_url('news') ?>"> View &gt;&gt; </a>
+        <hr />
+      <?php endforeach ?>
 		</div>
 	</div>
 </div><!-- ./container -->

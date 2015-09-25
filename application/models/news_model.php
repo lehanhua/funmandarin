@@ -15,6 +15,16 @@ class News_model extends CI_Model {
 		$query = $this->db->get('news');
 		return $query->result_array();
 	}
+
+	/**
+	* Get news for front page
+	*
+	**/
+	public function get_news_fp($limit){
+		$this->db->order_by('ts','desc');
+		$query = $this->db->get('news', $limit);
+		return $query->result_array();
+	}
 }
 
 /* End of file news_model.php */
