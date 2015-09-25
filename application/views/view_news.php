@@ -14,7 +14,7 @@
 				<div>
 					<span class="badge"><?php echo $news_item['ts'] ?>
 					</span>
-					<!-- <div class="pull-right"><span class="label label-info">temptag</span> -->
+					<!-- <div class="pull-right"><span class="label label-info">temptag</span>
 					</div><!-- /.pull-right -->       
 				</div>
 				<hr>
