@@ -12,10 +12,8 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>FunMandarin</h1>
-              <p>Learning Mandarin can be EASY and FUN! <br />
-		   		Enjoy our wonderful curriculum, excellent teachers, and flexible schedules!
-			  </p>
+              <h1>Now Enrolling</h1>
+              <p>Our Iowa location is now enrolling! Located close to Downtown Sunnyvale, visit us at <?= anchor_popup('https://goo.gl/maps/nzidtYw71Z62', '110 W. Iowa Street, Sunnyvale CA 94086') ?></p>
 			  <br />
 			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('classes/')?>" role="button">Open Classes</a></p>
             </div>
@@ -25,10 +23,11 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Daycare</h1>
-              <p>It is never too early to learn another language! Through lessons, games and hands-on activities we immerse our kids in Chinese culture and prepare them for kindergarten and on. Visit one of our convenient locations in Sunnyvale.</p>
-              <br />
-			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('daycare')?>" role="button">See Daycare</a></p>
+              <h1>FunMandarin</h1>
+              <p>Learning Mandarin can be EASY and FUN! <br />
+              Enjoy our wonderful curriculum, excellent teachers, and flexible schedules!
+              </p><br />
+			       <p><a class="btn btn-lg btn-primary" href="<?= site_url('daycare')?>" role="button">See Daycare</a></p>
             </div>
           </div>
         </div>
@@ -36,10 +35,10 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1></h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Daycare</h1>
+              <p>It is never too early to learn another language! Through lessons, games and hands-on activities we immerse our kids in Chinese culture and prepare them for kindergarten and on. Visit one of our convenient locations in Sunnyvale</p>
               <br />
-			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('gallery')?>" role="button">View Gallery</a></p>
+			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('contact')?>" role="button">Contact Us</a></p>
             </div>
           </div>
         </div>
