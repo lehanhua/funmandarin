@@ -40,7 +40,7 @@
 						<li <?php if ($currPage == 'Teachers') echo 'class="active"' ?>><?= anchor(site_url('teachers/'), 'Teachers') ?></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li <?php if ($currPage == 'Register') echo 'class="active"' ?>><?= anchor(site_url('register/'), 'Register') ?></li>
+						<li <?php if ($currPage == 'Register') echo 'class="active"' ?>><?= anchor('#', 'Register') ?></li>
 						<li <?php if ($currPage == 'Contact') echo 'class="active"' ?>><?= anchor(site_url('contact/'), 'Contact') ?></li>
 					</ul>
 				</div><!-- end .navbar-collapse -->

@@ -11,14 +11,14 @@
 <div class="container">
 	<div class="row">
 		<!-- TODO: make this collapse-able or disappear when resized -->
-		<div class="col-md-3">
+		<div class="col-sm-3 col-md-2">
 			<ul class="nav nav-pills nav-stacked">
 				<li><a href="#">Call</a></li>
 				<li><a href="#locations">Locations</a></li>
 				<li class="disabled"><a href="#message">Message Us</a></li>
 			</ul>
         </div>
-		<div class="col-md-9">
+		<div class="col-sm-9 col-md-10">
 			<div>
 				<h3>Jamie Chang</h3>
 					<p>(408) 250-1631</p>
@@ -33,11 +33,9 @@
 				<h2 id="locations">Locations</h2>
 				<br />
 				<h3>FunMandarin Daycare Iowa</h3>
-					<p>110 West Iowa Ave</p>
-					<p>Sunnyvale, CA 94086</p>
+					<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>	110 West Iowa Ave, Sunnyvale, CA 94086</p>
 				<h3>FunMandarin Daycare Lillian</h3>
-					<p>1345 Lillian Avenue</p>
-					<p>Sunnyvale, CA 94087</p>
+					<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>	1345 Lillian Avenue, Sunnyvale, CA 94087</p>
 			</div>
 			<hr />
 			<!--

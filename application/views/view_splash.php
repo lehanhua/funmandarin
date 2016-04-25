@@ -12,12 +12,12 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>FunMandarin </h1>
+              <h1>FunMandarin</h1>
               <p>Learning Mandarin can be EASY and FUN! <br />
 		   		Enjoy our wonderful curriculum, excellent teachers, and flexible schedules!
 			  </p>
 			  <br />
-			  <p><a class="btn btn-lg btn-primary" href="<?= base_url('classes')?>" role="button">Open Classes</a></p>
+			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('classes/')?>" role="button">Open Classes</a></p>
             </div>
           </div>
         </div>
@@ -25,10 +25,10 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Daycare</h1>
+              <p>It is never too early to learn another language! Through lessons, games and hands-on activities we immerse our kids in Chinese culture and prepare them for kindergarten and on. Visit one of our convenient locations in Sunnyvale.</p>
               <br />
-			  <p><a class="btn btn-lg btn-primary" href="#" role="button">See Daycare</a></p>
+			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('daycare')?>" role="button">See Daycare</a></p>
             </div>
           </div>
         </div>
@@ -36,10 +36,10 @@
           <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Fun Stuff</h1>
+              <h1></h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <br />
-			  <p><a class="btn btn-lg btn-primary" href="#" role="button">View Gallery</a></p>
+			  <p><a class="btn btn-lg btn-primary" href="<?= site_url('gallery')?>" role="button">View Gallery</a></p>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
 <div class="container" style="padding-top: 20px;">
 	<div class="row">
 		<div class="col-lg-8">
-			<h1>趣味中文網 FunMandarin</h1>
+			<h1 style="margin-top: 0px">趣味中文網 FunMandarin <img class="img-rounded" src="<?= base_url('assets/img/logo.gif')?> "  height="60" width="60" style="vertical-align: text-bottom" alt="logo"></img></h1>
 			<p><strong>Welcome to FunMandarin - the best place to learn Mandarin in the Bay Area</strong></p>
 			<br />
 			<div class="row">
@@ -60,7 +60,7 @@
 				<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNzAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
 			</div>
 			<div class="col-lg-7">
-				<p class="text-justify">Through songs, games, body movements, stories, arts & crafts, and hands-on activities, 
+				<p class="text-justify">Through songs, games, body movements, stories, arts &amp; crafts, and hands-on activities, 
 				you will find Mandarin is such an easy language to learn. 
 				You will be immersed in a relaxed atmosphere with our native experienced teachers in a small group. 
 				You can explore the amazing history of China, its ancient literature, culture and traditions. </p>
@@ -92,7 +92,7 @@
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Classes</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="<?= site_url('classes/') ?>" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
@@ -104,7 +104,7 @@
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Daycare</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="<?= site_url('daycare/') ?>" role="button">View details &raquo;</a></p>
         </div>
       </div><!-- /.row -->
 </div>

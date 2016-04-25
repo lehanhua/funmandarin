@@ -16,7 +16,7 @@
 */
 //for production
 //$config['base_url']	= 'http://www.funmandarin.com/;
-$config['base_url'] = 'http://localhost/funmandarin';
+$config['base_url'] = 'http://localhost:8888/funmandarin';
 
 /*
 |--------------------------------------------------------------------------
