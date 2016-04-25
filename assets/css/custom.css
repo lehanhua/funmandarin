@@ -8,7 +8,8 @@ body {
 
 body {
   padding-top: 15px;
-  background: url(../img/bg.jpg);
+  /* background: url(../img/bg.jpg);*/
+  background-color:#f0f0f0;
 }
 
 .jumbotron {
@@ -23,10 +24,11 @@ body {
 
 .footer {
   padding: 15px 0;
-  color: #777;
-  background: #f8f8f8;
+  color: #FFF;
   /* background: url(../img/footbg.jpg) no-repeat bottom left; */
   border-top: 1px solid #e7e7e7;
+  background-color: #5dd4d3;
+  background-image: none;
 }
 
 .section-indent {
@@ -67,8 +69,8 @@ body {
 .jumbotron-about {
   background: url(../img/jumbotron-bg.jpg);
   background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ------------- CAROUSEL STUFF ----------- */
@@ -79,6 +81,8 @@ body {
 .carousel-caption {
   z-index: 10;
   text-align: left;
+  color:#777;
+  text-shadow: none;
 }
 .carousel-caption > h1 {
   font-size: 64px;
@@ -89,7 +93,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 400px;
-  background-color: #777;
+  /* background-color: #777; */
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -115,6 +119,80 @@ body {
   margin-left: 10px;
 }
 
+/* navbar
+--------------------------------------------------- */
+.navbar-default {
+  background-color: #5dd4d3;
+  background-image: none;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  text-shadow: none;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  text-shadow: none;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #44a3a2;
+  background-image: none;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #44a3a2;
+}
+.navbar-default .navbar-toggle {
+  border-color: #44a3a2;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #44a3a2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #44a3a2;
+  }
+}
 /* Lastly, apply responsive CSS fixes as necessary??
 @media (max-width: 767px) {
 #footer {

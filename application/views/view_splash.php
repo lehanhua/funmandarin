@@ -9,7 +9,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="<?php echo base_url('assets/img/jumbotron-bg.jpg')?>" alt="First slide">
+          <img style="background-color:#FFB347; opacity: 0.9;">
           <div class="container">
             <div class="carousel-caption">
               <h1>Now Enrolling</h1>
@@ -56,7 +56,7 @@
 			<div class="row">
 			<div class="col-lg-5">
 				<br />
-				<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNzAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
+				<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="http://new.funmandarin.com/assets/img/splash_1.jpeg">
 			</div>
 			<div class="col-lg-7">
 				<p class="text-justify">Through songs, games, body movements, stories, arts &amp; crafts, and hands-on activities, 
